@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>HIDEKI's Portfolio</title>
+
+  <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </head>
+
+  <body>
+
+  <!-- ****************************** Header ************************** -->
+
+    <header class="sticky-top">
+  		<section class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark row">
+          <a class="navbar-brand navbar-brand-extend" href="#">HIDEKI's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav navbar-nav-extend">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#Skill">Skill</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link " href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  		</section>
+    </header>
+
+  <!-- ****************************** Home **************************** -->
+  <section id="Home">
+    <div class="jumbotron jumbotron-extend-home">
+      <div class="container-fluid jumbotron-container-home">
+        <h1 class="site-name">Hideki Ishibashi</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***************************** About **************************** -->
+
+  <section id="About">
+    <div class="container contents">
+      <h1>- About -</h1>
+      <div class="row about-bg">
+        <div class="col-xs-0 col-lg-1"></div>
+        <div class="col-xs-12 col-lg-3 about-picture">
+        </div>
+        <div class="col-xs-0 col-lg-1"></div>
+        <div class="col-xs-12 col-lg-7 about-right">
+          <h2>Profile</h2>
+          <p>
+            こんにちは、石橋秀規と申します。<br>
+            京都市在住の大学3年生です。<br>
+            情報系の学部でプログラミングなどを学んでいます。<br>
+            これまで学習したことのある言語は、C/Java/Python/HTML/CSS等です。<br>
+            機械学習に興味があり、現在インターンなどを通して勉強中です。<br>
+            趣味はピアノを弾くことと絵を描くことです。<br>
+            ピアノは二年ほど前に独学で初めました。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- **************************** Skill **************************** -->
+
+<section id="Skill">
+  <div class="container contents">
+    <h1>- Skill -</h1>
+    <div class="skill-bg">
+      <div class="row skill-icon">
+        <div class="col-xs-12 col-lg-4">
+          <img src="image/c.svg" width="190" height="190">
+          <h2>C</h2>
+        </div>
+        <div class="col-xs-12 col-lg-4">
+          <img src="image/java.svg" width="190" height="190">
+          <h2>Java</h2>
+        </div>
+        <div class="col-xs-12 col-lg-4">
+          <img src="image/python.svg" width="190" height="190">
+          <h2>Python</h2>
+        </div>
+      </div>
+
+      <div class="row skill-icon">
+        <div class="col-xs-12 col-lg-4">
+          <img src="image/c-sharp.svg" width="190" height="190">
+          <h2>C#</h2>
+        </div>
+        <div class="col-xs-12 col-lg-4">
+          <img src="image/html-5.svg" width="190" height="190">
+          <h2>HTML</h2>
+        </div>
+        <div class="col-xs-12 col-lg-4">
+          <img src="image/css-3.svg" width="190" height="190">
+          <h2>CSS</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- **************************** Contact **************************** -->
+
+  <section id="Contact">
+    <h1 class="contact ">- Contact -</h1>
+    <div class="jumbotron jumbotron-extend-contact">
+      <div class="container-fluid jumbotron-container-contact">
+
+        <form action="" method="" class="form-horizontal form-horizontal-extend">
+          <div class="form-group">
+            <label class="col-sm-3 control-label form-color-extnd" for="name1">お名前</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" name="">
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-sm-3 control-label form-color-extnd" for="email">メールアドレス</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" name="">
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-sm-3 control-label form-color-extnd" for="ask1">お問い合わせ内容</label>
+          <div class="col-sm-6">
+          <textarea rows="7" name="" class="form-control"></textarea>
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-sm-3"></label>
+          <div class="col-sm-9">
+             <button class="btn btn-default form-color-extnd">リセット</button>
+             <button class="btn btn-default form-color-extnd">送信する</button>
+          </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <p class="page-top"><a href="#Home">Homeへ戻る</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2020.Hideki Ishibashi</p>
+  </footer>
+
+  </body>
+</html>
